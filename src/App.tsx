@@ -6,6 +6,7 @@ import Benefits from "./components/benefits";
 import OurClasses from "./components/ourClasses";
 import ContactUs from "./components/contactUs";
 import Footer from "./components/footer";
+
 function App() {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(
     SelectedPage.Home

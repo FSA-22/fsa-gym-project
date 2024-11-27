@@ -37,7 +37,7 @@ const Home = ({ setSelectedPage }: Props) => {
               <div className="before:absolute before:-top-20 before:-left-20 before:z-[-1] before:content-evolvetext">
                 <div>
                   <h1 className="text-9xl font-extrabold">FSAGYM</h1>
-                  <p className="text-start text-4xl -tracking-xl">
+                  <p className="text-start text-4xl tracking-xl">
                     evolutionary fitness
                   </p>
                 </div>

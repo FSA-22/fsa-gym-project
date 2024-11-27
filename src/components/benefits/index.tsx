@@ -1,6 +1,7 @@
 import Htext from "@/shared/Htext";
 import { BenefitType, SelectedPage } from "@/shared/types";
 import {
+  HomeIcon,
   HomeModernIcon,
   UserGroupIcon,
 } from "@heroicons/react/24/solid";
@@ -13,8 +14,7 @@ const benefits: Array<BenefitType> = [
   {
     icon: <HomeModernIcon className="h-6 w-6" />,
     title: "State of the Facilities",
-    description: `
-Regular gym workouts can help you maintain a healthy weight, reduce body fat, and increase muscle mass.
+    description: `Regular gym workouts can help you maintain a healthy weight, reduce body fat, and increase muscle mass.
  Exercise, combined with a balanced diet, can help you achieve and sustain weight loss. Additionally,
  resistance training can help build muscle, which further supports weight management.`,
   },
@@ -34,18 +34,6 @@ Regular gym workouts can help you maintain a healthy weight, reduce body fat, an
 Gym workouts can release endorphins, also known as  which can improve your overall mental well-being. Regular exercise 
 can also help improve sleep quality, concentration, and self-esteem`,
   },
-  // {
-  //   icon: <UserCircleIcon className="h-6 w-6" />,
-  //   title: "Expert and Pro Trainers",
-  //   description:
-  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti suscipit soluta dolorum dolor nobis recusandae officiis doloremque ullam ratione? Vel id qui, exercitationem impedit repellendus suscipit dolor sequi tempora nisi!",
-  // },
-  // {
-  //   icon: <AcademicCapIcon className="h-6 w-6" />,
-  //   title: "World Wide Recognition",
-  //   description:
-  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti suscipit soluta dolorum dolor nobis recusandae officiis doloremque ullam ratione? Vel id qui, exercitationem impedit repellendus suscipit dolor sequi tempora nisi!",
-  // },
 ];
 
 const container = {
