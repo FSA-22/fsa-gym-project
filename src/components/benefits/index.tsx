@@ -3,10 +3,6 @@ import { BenefitType, SelectedPage } from "@/shared/types";
 import {
   HomeModernIcon,
   UserGroupIcon,
-  AcademicCapIcon,
-  HomeIcon,
-  UserCircleIcon,
-  UserPlusIcon,
 } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
 import Benefit from "./Benefit";

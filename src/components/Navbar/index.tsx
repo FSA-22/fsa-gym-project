@@ -1,4 +1,3 @@
-import Logo from "@/assets/Logo.png";
 import Link from "./Link";
 import { SelectedPage } from "@/shared/types";
 import useMediaQuery from "@/hooks/useMediaQuery";
@@ -24,8 +23,6 @@ const Navbar = ({ selectedPage, setSelectedPage, isTopOfPage }: Props) => {
         className={`${navbarBackground} ${flexBetween} fixed top-0 z-30 w-full py-6`}>
         <div className={`${flexBetween} mx-auto w-5/6`}>
           <div className={`${flexBetween} w-full gap-16`}>
-            {/* <img src={Logo} alt="Logo" /> */}
-
             <div className="flex items-center justify-center gap-1">
               <div className="text-center font-bold text-2xl">FSAGYM</div>
               <div className="w-4 h-4 rounded-full bg-red-500 justify-center items-center"></div>

@@ -1,7 +1,6 @@
 import { SelectedPage } from "@/shared/types";
 import useMediaQuery from "@/hooks/useMediaQuery";
 import ActionButton from "@/shared/ActionButton";
-import HomePageText from "@/assets/HomePageText.png";
 import HomePageGraphic from "@/assets/HomePageGraphic.png";
 import SponsorRedBull from "@/assets/SponsorRedBull.png";
 import SponsorForbes from "@/assets/SponsorFortune.png";
@@ -36,11 +35,11 @@ const Home = ({ setSelectedPage }: Props) => {
             }}>
             <div className="relative">
               <div className="before:absolute before:-top-20 before:-left-20 before:z-[-1] before:content-evolvetext">
-                {/* <img src={HomePageText} alt="home-page-text" /> */}
-
                 <div>
                   <h1 className="text-9xl font-extrabold">FSAGYM</h1>
-                  <p className="text-start text-4xl -tracking-xl">evolutionary fitness</p>
+                  <p className="text-start text-4xl -tracking-xl">
+                    evolutionary fitness
+                  </p>
                 </div>
               </div>
             </div>
@@ -108,7 +107,9 @@ const Home = ({ setSelectedPage }: Props) => {
               <img src={SponsorRedBull} alt="redbull-sponsor" />
               <img src={SponsorForbes} alt="forbes-sponsor" />
               <img src={SponsorFortune} alt="fortune-sponsor" />
-              <div className="text-3xl text-red-500 font-extrabold">MoniePoint</div>
+              <div className="text-3xl text-red-500 font-extrabold">
+                MoniePoint
+              </div>
             </div>
           </div>
         </motion.div>
